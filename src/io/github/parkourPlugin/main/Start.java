@@ -1,4 +1,4 @@
-package io.github.minigameplugin.main;
+package io.github.parkourPlugin.main;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
@@ -48,14 +48,5 @@ public class Start {
 		alive = (ArrayList<Player>) Bukkit.getOnlinePlayers();
 	}
 	
-	public static void tntDrop() {
-		World world = Bukkit.getWorld("world");
-		for (int i = x1; i <= x2; i++) {
-			for (int j = z1; j <= z2; j++) {
-				Location loc = new Location(world, i, y, j);
-				FallingBlock tnt = (FallingBlock) world.spawnFallingBlock(loc, Material.TNT.createBlockData());
-			}
-		}
-	}
 }
 

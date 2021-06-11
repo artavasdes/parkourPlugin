@@ -1,4 +1,4 @@
-package io.github.minigameplugin.main;
+package io.github.parkourPlugin.main;
 
 import java.util.ArrayList;
 
