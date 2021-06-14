@@ -12,6 +12,8 @@ public class Win {
     			p.setGameMode("adventure");
 		    	Reset.returnTp(p);
 		    	Reset.original(p);
+		    	
+		    	//test
     		}
 		}
     }
